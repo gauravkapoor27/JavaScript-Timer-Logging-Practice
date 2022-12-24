@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(105, 105, 101);
+  color: white;
+  display: flex;
+  margin: 40px 40px;
+  height: 80vh;
+}
+
+.log-window {
+  flex: 1;
+  background-color: rgb(19, 41, 56);
+  border: solid 2px white;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 50px;
+  height: 100%;
+  overflow: auto;
+}
+
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+.time-window {
+  border: solid 2px white;
+  border-radius: 5px;
+  padding: 40px;
+  background-color: rgb(19, 41, 56);
+  text-align: center;
+  height: 100%;
+}
+
+.time-display {
+  width: 200px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  border: solid 1px white;
+  padding: 10px 20px;
+  font-family: monospace;
+}
+
+.log-button {
+  width: 100px;
+  height: 100px;
+  font-size: 20px;
+  cursor: pointer;
+  border: solid 1px white;
+  background-color: rgb(58, 114, 131);
+  color: white;
+  border-radius: 5px;
+}
+
+.log-button:hover {
+  background-color: rgb(134, 177, 190);
+}
+
+.log-time {
+  margin-top: 7px;
+}
+
+.log-time:first-child {
+  color: red;
+}
